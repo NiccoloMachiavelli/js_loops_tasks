@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js_loops_tasks</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function myRand(min, max) {
+            return Math.floor(Math.random()*(max - min + 1)+ min);
+        }
+    </script>
+    <!--<script>
+        function myFuncChange() {
+            document.getElementById("demo").innerHTML = "Changed HTML"
+        }
+    </script>-->
+</head>
+<body>
+    <!--<h1>js_home_tasks</h1>
+    <p id="demo">H1.</p>
+    <button onclick="document.getElementById('demo').style.display = 'none'">Hide Button</button>
+    <button onclick="document.getElementById('demo').style.display = 'block'">Show Button</button>
+    <button type="button" onclick="myFuncChange()">Change Button</button>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello World!";
+        document.getElementById("demo").style.fontSize = "40px";
+        document.getElementById("demo").style.backgroundColor = "red";
+        console.log(5+6);
+    </script>-->
+    <h1>If-else, switch-case :</h1>
+    <div class="container" id="demo">
+        <div class="item"><button onclick="myDecada()">1.В переменной day лежит какое-то число из интервала от 1 до 31.
+            Определите в какую декаду месяца попадает это число (в первую, вторую или третью).</button>
+            <script src="%231.js"></script>
+            </div>
+        <div class="item"><button onclick="mySeasons()">2.В переменной month лежит какое-то число из интервала от 1 до 12.
+            Определите в какую пору года попадает этот месяц (зима, лето, весна, осень).</button>
+            <script src="%232.js"></script>
+            </div>
+        <div class="item"><button onclick="myStr()">3.Дана строка с цифрами, например, '12345'.
+            Проверьте, что первым символом этой строки является цифра 1, 2 или 3.
+            Если это так - выведите 'да', в противном случае выведите 'нет'.
+        </button>
+            <script src="%233.js"></script>
+        </div>
+        <div class="item"><button onclick="myStrSum()">4.Дана строка из 6-ти цифр.
+            Проверьте, что сумма первых трех цифр равняется сумме вторых трех цифр.
+            Если это так - выведите 'да', в противном случае выведите 'нет'.
+        </button>
+            <script src="%234.js"></script>
+        </div>
+    </div>
+    <h1>For, while, do-while :</h1>
+    <div class="container">
+        <div class="item">
+            <button onclick="myFunc1()">5.Выведите столбец чисел от 11 до 33.</button>
+            <script src="%235.js"></script>
+        </div>
+        <div class="item">
+            <button onclick="myFunc2()">6.Выведите столбец четных чисел в промежутке от 0 до 100.</button>
+            <script src="%236.js"></script>
+        </div>
+        <div class="item">
+            <button onclick="myFunc3()">7.С помощью цикла найдите сумму чисел от 1 до 100.</button>
+            <script src="%237.js"></script>
+        </div>
+    </div>
+    <h1>Функции :</h1>
+    <div class="container">
+        <div class="item">
+            <button onclick="mySQRT(5)">8.Сделайте функцию, которая возвращает квадрат числа. Число передается параметром.</button>
+            <script src="%238.js"></script>
+        </div>
+        <div class="item">
+            <button onclick="myFunc4()">9.Сделайте функцию, которая отнимает от первого числа второе и делит на третье.</button>
+            <script src="%239.js"></script>
+        </div>
+        <div class="item">
+            <button onclick="myDaysOfWeek(myRand(1,7))">10.Сделайте функцию, которая принимает параметром число от 1 до 7,
+                а возвращает день недели на русском языке.</button>
+            <script src="%2310.js"></script>
+        </div>
+        <div class="item">
+            <button onclick="myBoolLean(myRand(1,5),myRand(1,5))">11.Сделайте функцию, которая параметрами принимает 2 числа.
+                Если эти числа равны - пусть функция вернет true, а если не равны - false.</button>
+            <script src="%2311.js"></script>
+        </div>
+        <div class="item">
+            <button onclick="myIsNeg(myRand(-2,2))">12.Сделайте функцию, которая параметром принимает число и проверяет - отрицательное оно или нет.
+                Если отрицательное - пусть функция вернет true, а если нет - false.</button>
+            <script src="%2312.js"></script>
+        </div>
+    </div>
+    <h1>Задачи :</h1>
+    <div class="container">
+        <div class="item">
+            <button onclick="myPyramid(5)">С помощью двух вложенных циклов нарисуйте следующую пирамидку:
+                1
+                22
+                333
+                4444
+                55555
+            </button>
+            <script src="%2313.js"></script>
+        </div>
+        <div class="item">
+            <button onclick="myString()">С помощью цикла for сформируйте строку '-1-2-3-4-5-6-7-8-9-' и запишите ее в переменную str.</button>
+            <script src="%2314.js"></script>
+        </div>
+    </div>
+</body>
+</html>
